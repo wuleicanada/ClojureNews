@@ -94,9 +94,9 @@
        (<= (count city) 40)))
 
 (defn submit-country?
-  [city]
+  [country]
   (and (not (str/blank? city))
-       (<= (count city) 40)))
+       (<= (count country) 40)))
 
 (defn get-pure-url
   [url]
